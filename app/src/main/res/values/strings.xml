@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <!-- Status texts -->
+    <string name="status_waiting">Status: Waiting to start.</string>
+    <string name="status_verifying">Status: Verifying…</string>
+    <string name="status_verified">Status: Verified successfully!</string>
+
+    <!-- UI texts -->
+    <string name="start_verification">Start Verification</string>
+    <string name="place_face_in_oval">Place your face inside the oval</string>
+    <string name="great">Great</string>
+
+    <!-- Passport texts -->
+    <string name="passport_instructions">Align your passport within the guide and hold steady</string>
+    <string name="scan_passport">Scan Passport</string>
+    <string name="back">Back</string>
+
+
+</resources>

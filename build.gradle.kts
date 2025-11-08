@@ -1,0 +1,5 @@
+plugins {
+    // Keep AGP versions here; modules apply them
+    id("com.android.application") version "8.5.2" apply false
+    id("com.android.library") version "8.5.2" apply false
+}

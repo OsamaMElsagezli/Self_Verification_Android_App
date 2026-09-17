@@ -78,6 +78,54 @@ app/src/main/java/com/example/myapp/
 
 ---
 
+## 🌐 App Showcase
+
+## AI-Assisted Face Verification Flow
+
+The following examples demonstrate the face-verification guidance flow using a stylized AI-generated avatar while preserving the original verification UI.
+
+### 1. Front-Facing Verification
+
+<p align="center">
+  <img
+    width="260"
+    alt="Front-facing face verification"
+    src="https://github.com/user-attachments/assets/b945b274-86a3-4f7b-8360-cdd8b24fef1b"
+  />
+</p>
+
+<p align="center">
+  <em>Front-facing pose with the face positioned inside the verification oval.</em>
+</p>
+
+### 2. Head Turn — Left
+
+<p align="center">
+  <img
+    width="260"
+    alt="AI face verification with head turned left"
+    src="https://github.com/user-attachments/assets/06776a38-deb3-4f98-b3ad-ebbf7d80e19b"
+  />
+</p>
+
+<p align="center">
+  <em>Head-turn guidance showing the user facing left while remaining inside the verification oval.</em>
+</p>
+
+### 3. Head Turn — Right
+
+<p align="center">
+  <img
+    width="260"
+    alt="AI face verification with head turned right"
+    src="https://github.com/user-attachments/assets/8ab37e3d-8a86-418a-8535-69f2f08f9b33"
+  />
+</p>
+
+<p align="center">
+  <em>Successful side-angle verification with the head turned in the requested direction.</em>
+</p>
+
 ## 🚀 Setup
 
 1. Clone or open the project in **Android Studio** (Giraffe or newer recommended).

@@ -111,6 +111,8 @@ app/
                             └── UploadActions.java
                                 └── 📤 Convenience wrapper with
                                    progress / success / error callbacks
+```
+
 ---
 
 ## 📱 App Showcase

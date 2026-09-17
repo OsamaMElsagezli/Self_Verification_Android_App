@@ -90,14 +90,14 @@ The following examples demonstrate the face-verification guidance flow using a s
   <img
     width="260"
     alt="Start verification screen"
-    src=" <img width="499" height="803" alt="Screenshot 2026-09-17 215524" src="https://github.com/user-attachments/assets/25e51597-d462-4f7a-8070-7a51a0424449" />
- "
+    src="https://github.com/user-attachments/assets/25e51597-d462-4f7a-8070-7a51a0424449"
   />
 </p>
 
 <p align="center">
   <em>Begin the identity verification process by selecting Start Verification.</em>
 </p>
+
 
 ### 2. Front-Facing Verification
 

@@ -112,6 +112,8 @@ app/
                                 └── 📤 Convenience wrapper with
                                    progress / success / error callbacks
 
+---
+
 
 ## 📱 App Showcase
 

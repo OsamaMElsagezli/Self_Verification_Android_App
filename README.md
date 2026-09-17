@@ -84,7 +84,22 @@ app/src/main/java/com/example/myapp/
 
 The following examples demonstrate the face-verification guidance flow using a stylized AI-generated avatar while preserving the original verification UI.
 
-### 1. Front-Facing Verification
+### 1. Start Verification
+
+<p align="center">
+  <img
+    width="260"
+    alt="Start verification screen"
+    src=" <img width="499" height="803" alt="Screenshot 2026-09-17 215524" src="https://github.com/user-attachments/assets/25e51597-d462-4f7a-8070-7a51a0424449" />
+ "
+  />
+</p>
+
+<p align="center">
+  <em>Begin the identity verification process by selecting Start Verification.</em>
+</p>
+
+### 2. Front-Facing Verification
 
 <p align="center">
   <img
@@ -98,7 +113,7 @@ The following examples demonstrate the face-verification guidance flow using a s
   <em>Front-facing pose with the face positioned inside the verification oval.</em>
 </p>
 
-### 2. Head Turn — Left
+### 3. Head Turn - Left
 
 <p align="center">
   <img
@@ -112,7 +127,7 @@ The following examples demonstrate the face-verification guidance flow using a s
   <em>Head-turn guidance showing the user facing left while remaining inside the verification oval.</em>
 </p>
 
-### 3. Head Turn — Right
+### 4. Head Turn - Right
 
 <p align="center">
   <img

@@ -57,28 +57,63 @@ This app walks a user through a short, guided identity self-verification flow en
 
 ---
 
-app/src/main/java/com/example/myapp/
-├── MainActivity.java # 🏠 Entry screen; thumbnails, collage, upload trigger
-├── SelfieVerifierActivity.java # 🙂 Camera + liveness challenge state machine
-├── LivenessDetectionHelper.java # 🧠 ML Kit face analysis (yaw, blink, smile signals)
-├── LivenessChallenge.java # 📋 Enum of challenge steps and prompts
-├── PassportScanActivity.java # 🛂 Back-camera passport capture and upload
-├── PassportOutlineOverlay.java # 🖼️ Passport guide overlay (vector-based)
-├── PassportPngOverlay.java # 🖼️ Passport guide overlay (PNG-based)
-├── OverlayView.java # ⭕ Oval face-guide overlay with success checkmark
-├── ApiClient.java # 🔌 Retrofit client factory
-├── UploadApi.java # 🔌 Retrofit API interface
-├── UploadResponse.java # 📦 Upload response model
-├── MultipartUtils.java # 🧵 Multipart request body helpers
-└── feature/
-├── Uploader.java # 📤 Builds multipart parts and issues upload call
-└── UploadActions.java # 📤 Convenience wrapper with progress/success/error callbacks
+## 📁 Project Structure
+
+```text
+app/
+└── src/
+    └── main/
+        └── java/
+            └── com/
+                └── example/
+                    └── myapp/
+                        ├── MainActivity.java
+                        │   └── 🏠 Entry screen; thumbnails, collage, upload trigger
+                        │
+                        ├── SelfieVerifierActivity.java
+                        │   └── 🙂 Camera + liveness challenge state machine
+                        │
+                        ├── LivenessDetectionHelper.java
+                        │   └── 🧠 ML Kit face analysis
+                        │      (yaw, blink, smile signals)
+                        │
+                        ├── LivenessChallenge.java
+                        │   └── 📋 Enum of challenge steps and prompts
+                        │
+                        ├── PassportScanActivity.java
+                        │   └── 🛂 Back-camera passport capture and upload
+                        │
+                        ├── PassportOutlineOverlay.java
+                        │   └── 🖼️ Passport guide overlay (vector-based)
+                        │
+                        ├── PassportPngOverlay.java
+                        │   └── 🖼️ Passport guide overlay (PNG-based)
+                        │
+                        ├── OverlayView.java
+                        │   └── ⭕ Oval face-guide overlay with success checkmark
+                        │
+                        ├── ApiClient.java
+                        │   └── 🔌 Retrofit client factory
+                        │
+                        ├── UploadApi.java
+                        │   └── 🔌 Retrofit API interface
+                        │
+                        ├── UploadResponse.java
+                        │   └── 📦 Upload response model
+                        │
+                        ├── MultipartUtils.java
+                        │   └── 🧵 Multipart request body helpers
+                        │
+                        └── feature/
+                            ├── Uploader.java
+                            │   └── 📤 Builds multipart parts and issues upload call
+                            │
+                            └── UploadActions.java
+                                └── 📤 Convenience wrapper with
+                                   progress / success / error callbacks
 
 
-
----
-
-## 🌐 App Showcase
+## 📱 App Showcase
 
 ## AI-Assisted Face Verification Flow
 
